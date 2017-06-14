@@ -10,13 +10,13 @@ C:\Users\사용자계정\AppData\Local\Android\sdk
 
 ### path  
 
--- %ANT_HOME%\bin;
+---- %ANT_HOME%\bin;
 
--- %ANDROID_HOME%\tools;
+---- %ANDROID_HOME%\tools;
 
--- %ANDROID_HOME%\platform-tools;
+---- %ANDROID_HOME%\platform-tools;
 
--- %ANDROID_HOME%\build-tools;
+---- %ANDROID_HOME%\build-tools;
 
 ### 폰갭 setup
 

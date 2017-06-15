@@ -48,3 +48,12 @@ C:\Users\사용자계정\AppData\Local\Android\sdk
 
 -- cordova compile android
 
+
+###  이클립스 
+help > install new software > Add button
+
+name: ADT Plugin
+Location:  https://dl-ssl.google.com/android/eclipse/
+
+
+

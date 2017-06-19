@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css"
+        >
+        <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <!-- jqm 구조 -->
+        <div data-role='page'>
+            <div data-role='header'>
+                <h1>해더영역</h1>
+            </div>
+            <div data-role='content'>
+                <h2>제목</h2>
+                <form>
+                
+                    <div data-role='fieldcontain'>
+                    <label for="sabun">sabun</label>
+                    <input type="range" min="10" max="100" value="50" id="sabun"/>
+                    </div>
+                    <div data-role='fieldcontain'>
+                    <label for="name">name</label>
+                    <input type="text" id="name"/>
+                    </div>
+                    <div data-role='fieldcontain'>
+                    <select data-native-menu='false'>
+                        <option>선택하세요</option>
+                        <option>item2</option>
+                        <option>item3</option>
+                        </select>
+                    </div>
+                    <div data-role='fieldcontain'>
+                        <div data-role='controlgroup'>
+                    <input type="radio" name="ra" id="ra1"/><label for="ra1">item1</label>
+                    <input type="radio" name="ra" id="ra2"/><label for="ra2">item2</label>
+                    <input type="radio" name="ra" id="ra3"/><label for="ra3">item3</label>
+                        </div>
+                    <div data-role='fieldcontain'>
+                    <label for="ta">내용</label>
+                        <textarea id="ta"></textarea>
+                    </div>
+                    <div data-role='fieldcontain'>
+                    <button>전송</button>
+                    </div>
+                
+                </form>
+            </div>
+            <div data-position='fixed' data-role='footer'>
+                <h2>푸터영역</h2>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

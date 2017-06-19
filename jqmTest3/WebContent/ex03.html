@@ -1,0 +1,130 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css"
+        >
+        <style type="text/css">
+            .btn-group{
+                width: 100%;
+            }
+        </style>
+        <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <!-- page1 -->
+        <div data-role='page'>
+            <div data-role='header' data-position='fixed'>
+                <h1>main</h1>
+                <div data-role='navbar' data-iconpos='bottom'>
+                    <ul>
+                        <li>
+                <a href="#page2" data-icon='home' class="ui-btn-active">home</a>
+                        </li>
+                        <li>
+                <a href="#bars" data-icon='arrow-r'>go page2</a>
+                        </li>
+                        <li>
+                <a href="#page2" data-icon='grid'>go page2</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role='content'>
+                <div data-role='navbar' data-iconpos='bottom'>
+                    <ul>
+                        <li>
+                <a href="#page2" data-icon='home' class="ui-btn-active">home</a>
+                        </li>
+                        <li>
+                <a href="#bars" data-icon='arrow-r'>go page2</a>
+                        </li>
+                        <li>
+                <a href="#page2" data-icon='grid'>go page2</a>
+                        </li>
+                    </ul>
+                </div>
+                <h2>제목</h2>
+                <div data-role='controlgroup' data-type='horizontal'>
+                <a href="#page2" data-role='button' data-icon='arrow-r' data-iconpos='top'>go page2</a>
+                
+                <a href="#page3" data-role='button' data-icon='arrow-r' data-iconpos='bottom'>go page3</a>
+                </div>
+                <div data-role='controlgroup'>
+                <a href="#page2" data-role='button' data-icon='arrow-r' data-iconpos='right'>go page2</a>
+                
+                <a href="#page3" data-role='button' data-icon='arrow-r' data-iconpos='right'>go page3</a>
+                </div>
+                
+                <button data-inline='true' data-icon='home' data-iconpos='notext'>버튼</button>
+                
+            </div>
+            <div  data-position='fixed' data-role='footer'>
+                <div data-role='navbar'>
+                    <ul>
+                        <li>
+                <a href="#page2" data-icon='home'>go page2</a>
+                        </li>
+                        <li>
+                <a href="#bars" data-icon='arrow-r'>go page2</a>
+                        </li>
+                        <li>
+                <a href="#page2" data-icon='grid'>go page2</a>
+                        </li>
+                        <li>
+                <a href="#page2" data-icon='arrow-r'>go page2</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- page2 -->
+        <div id="page2" data-role='page'>
+            <div data-role='header'>
+                <h1>page2</h1>
+                <a href="#" data-role="button" data-rel='back' data-icon='arrow-l'>back</a>
+                <a href="#page3" data-icon='arrow-r' data-iconpos='right'>next</a>
+            </div>
+            <div data-role='content'>
+                <h2>제목</h2>
+                <a href="#page3" data-role='button'>go page3</a>
+            </div>
+            <div data-position='fixed' data-role='footer'>
+                <h2>푸터영역</h2>
+            </div>
+        </div>
+        <!-- page3 -->
+        <div id="page3" data-role='page'>
+            <div data-role='header'>
+                <h1>page3</h1>
+                <a href="#" data-role="button" data-rel='back' class="ui-btn-right">back</a>
+            </div>
+            <div data-role='content'>
+                <h2>제목</h2>
+                <p>내용</p>
+            </div>
+            <div data-role='footer'>
+                <h2>푸터영역</h2>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

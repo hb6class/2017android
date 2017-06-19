@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+         <script src="js/jquery.xdomainajax.js"></script>
+          <script type="text/javascript">
+//          $.getJSON('http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-2.json?jsonCallback=?').done(function(json){
+//                  alert("test");    
+//          });
+              ///////////////////////
+//              var tosUrl='http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-2.json';
+//              $.ajax({
+//                  url:tosUrl,
+//                  dataType:'jsonp',
+//                  jsonpCallback:'jsonCallback',
+//                  success:function(data){
+//                      alert(data.sites);
+//                  }
+//              });
+              ////////////////////////
+//              function jsonCallback(json){
+//			  console.log(json);
+//			}
+//			$.ajax({
+//				url: "http://run.plnkr.co/plunks/v8xyYN64V4nqCshgjKms/data-2.json",
+//				dataType: "jsonp",
+//				crossDomain:true,
+//				async:true
+//			});
+              /////////////////////////
+              var london='http://samples.openweathermap.org/data/2.5/weather?q=London&appid=b1b15e88fa797225412429c1c50c122a1?callback=?';
+//              $.getJSON(london,null
+////              }).done(
+//                  ,function(json){
+//                  console.log(json);
+//              });
+              $.ajax({
+                  url:london,
+//                  type:'get',
+                  dataType:'jsonp',
+                  jsonp:"callback",
+                  seccess:function(json){
+                  console.log(json);
+                  }
+              });
+              
+        </script>
+		</head>
+
+	<body>
+
+	</body>
+</html>
